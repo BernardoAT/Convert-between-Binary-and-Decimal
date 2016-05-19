@@ -5,8 +5,10 @@
 # ff_bin2dec("1011.11011")
 # ff_bin2dec("11100.0110110001100010001")
 
+""" this program is a transformation from 'n' binary number to decimal number """
+
 import math
-#import sys
+import sys
 
 def ff_bin2dec(n):                      # 'n' is an string
 
@@ -22,7 +24,7 @@ def ff_bin2dec(n):                      # 'n' is an string
         inteiro = inteiro[:index_ponto]
         mantissa = n[index_ponto + 1:]
     else:
-        break
+        sys.exit('abort the program')
 
     soma, som = 0., 0.
     

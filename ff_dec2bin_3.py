@@ -9,7 +9,7 @@
 # ff_dec2bin(.625) = .101
 # ff_dec2bin(mantissa)
 
-""" this program is a transformation from 'n' decimal number to binary number - mantissa!"""
+""" this program is a transformation from 'n' decimal number to binary number - only mantissa!"""
 
 import math
 

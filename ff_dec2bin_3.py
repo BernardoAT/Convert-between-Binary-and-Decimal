@@ -1,8 +1,7 @@
 # ‐*‐ encoding: utf‐8 ‐*‐
 #!/usr/bin/python python ‐tt
-# 1011.11101 => 11.90625
-# ff_dec2bin(99.9296875) = 1100011.11101110
-# ff_dec2bin(58211.06640625) = 1110001101100011.000100010
+# .11101 => .90625
+# ff_dec2bin(.9296875) = .11101110
 # ff_dec2bin(.06640625) = .000100010
 # mantissa = .625
 # mantissa = .06640625
@@ -10,7 +9,7 @@
 # ff_dec2bin(.625) = .101
 # ff_dec2bin(mantissa)
 
-""" this program is a transformation from 'n' decimal number to binary number"""
+""" this program is a transformation from 'n' decimal number to binary number - mantissa!"""
 
 import math
 
